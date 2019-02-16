@@ -5,23 +5,26 @@ ruby '2.5.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2'
+gem 'bootstrap-sass', '3.3.7'
+
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', group: :development
+gem 'sqlite3', '~> 1.3.6', group: :development
 gem 'pg', '0.18.1', group: :production
 gem 'rails_12factor', group: :production
 # Use Puma as the app server
+
 gem 'puma', '~> 3.11'
 
 gem 'minitest-reporters'
 
-
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'turbolinks', '~> 5'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
