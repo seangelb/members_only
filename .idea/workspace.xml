@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e0bdd63-4dfc-4b59-a3cf-46ceacf65423" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/_rails_default.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/members_only.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/members_only.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterDir="false" />
-    </list>
+    <list default="true" id="4e0bdd63-4dfc-4b59-a3cf-46ceacf65423" name="Default Changelist" comment="push tres" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -415,7 +405,7 @@
       <workItem from="1550349368012" duration="6163000" />
       <workItem from="1550417057221" duration="4000" />
       <workItem from="1550460368048" duration="505000" />
-      <workItem from="1550506992649" duration="5442000" />
+      <workItem from="1550506992649" duration="5668000" />
     </task>
     <task id="LOCAL-00001" summary="push uno">
       <created>1550345036920</created>
@@ -431,11 +421,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550351746154</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="push tres">
+      <created>1550543082682</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1550543082682</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27556000" />
+    <option name="totallyTimeSpent" value="27782000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -448,8 +445,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="53" width="1678" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16381419" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16381419" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -464,7 +462,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49893504" weight="0.32772276" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.6507333" side_tool="true" weight="0.24158415" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32941177" />
-      <window_info anchor="bottom" x="1050" y="650" width="494" height="356" id="Terminal" order="12" sideWeight="0.4724939" side_tool="true" visible="true" weight="0.24171123" />
+      <window_info active="true" anchor="bottom" x="1050" y="650" width="494" height="356" id="Terminal" order="12" sideWeight="0.4724939" side_tool="true" visible="true" weight="0.24171123" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -539,7 +537,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="push uno" />
     <MESSAGE value="push dos" />
-    <option name="LAST_COMMIT_MESSAGE" value="push dos" />
+    <MESSAGE value="push tres" />
+    <option name="LAST_COMMIT_MESSAGE" value="push tres" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/db/migrate/20190215052553_create_users.rb">
