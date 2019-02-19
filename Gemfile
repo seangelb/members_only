@@ -5,8 +5,11 @@ ruby '2.5.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2'
+gem 'sprockets'
 gem 'bootstrap-sass', '3.3.7'
-
+gem 'sass-rails'
+gem 'uglifier'
+gem 'coffee-rails'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.3.6', group: :development
 gem 'pg', '0.18.1', group: :production
