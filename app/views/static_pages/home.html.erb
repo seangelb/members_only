@@ -1,14 +1,17 @@
 <% provide(:title, "Home") %>
 
-<div class="center jumbotron">
+<div>
 <h1><%= image_tag("members2.png", alt: "Members only", class: "membersImg") %></h1>
 
 <h2>
 
   <br>
   <br>
-  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
-
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-secondary" %>
+  <br>
+  <br>
+  <br>
+  <%= link_to "View Posts", '#' , class: "btn btn-lg btn-secondary" %>
   <br>
 </h2>
 </div>

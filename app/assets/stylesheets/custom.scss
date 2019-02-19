@@ -1,15 +1,28 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-@import "bootstrap-sprockets";
-@import "bootstrap";
 
 /* mixins, variables, etc. */
 
 $gray-medium-light: #eaeaea;
-
+$dark-green: #054136;
+$beige-color: #F0E8C8;
 /* universal */
 
+@mixin box_sizing {
+  -moz-box-sizing:    border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing:         border-box;
+}
+  /* miscellaneous */
+
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+  @include box_sizing;
+}
 body {
   padding-top: 60px;
 }
@@ -47,17 +60,18 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 3em;
   letter-spacing: -2px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   text-align: center;
+
 }
 
 h2 {
   font-size: 1.2em;
   letter-spacing: -1px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   text-align: center;
   font-weight: normal;
-  color: $gray-light;
+  color: $beige-color;
 }
 
 p {
@@ -67,12 +81,33 @@ p {
 
 
 /* header */
+.nav.navbar-nav.navbar-right li a {
+  color: $beige-color;
+  &:hover{
+    color: white;
+  }
+}
+
+.navbar {
+  background-color: $dark-green;}
+
+.navbar-fixed-top { background-color: $dark-green;}
+.navbar-inverse  {background-color: $dark-green;}
+
+
+.btn-secondary { background-color: #054136;
+                  color: #F0E8C8;
+  &:hover{
+    color: white;
+  }
+}
+
 
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: white;
+  color: $beige-color;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
@@ -106,5 +141,45 @@ footer {
       float: left;
       margin-left: 15px;
     }
+  }
+}
+
+/* forms */
+body {
+  background-color: $beige-color;
+}
+.signup{
+  color: $dark-green;
+}
+
+.col-md-6.col-md-offset-3 {
+  color: $dark-green;
+}
+
+input, textarea, select, .uneditable-input {
+  border: 1px solid #bbb;
+  width: 100%;
+  margin-bottom: 15px;
+  @include box_sizing;
+}
+
+input {
+  height: auto !important;
+}
+
+/* forms */
+
+#error_explanation {
+  color: red;
+  ul {
+    color: red;
+    margin: 0 0 30px 0;
+  }
+}
+
+.field_with_errors {
+  @extend .has-error;
+  .form-control {
+    color: $state-danger-text;
   }
 }
