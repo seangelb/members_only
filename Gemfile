@@ -16,6 +16,8 @@ gem 'pg', '0.18.1', group: :production
 gem 'rails_12factor', group: :production
 # Use Puma as the app server
 
+gem 'rails-controller-testing'
+
 gem 'puma', '~> 3.11'
 
 gem 'minitest-reporters'
@@ -26,7 +28,7 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
 gem 'turbolinks', '~> 5'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
