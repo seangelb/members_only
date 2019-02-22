@@ -12,12 +12,7 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
     assert_select "title", "Home | Members only club"
   end
-
-  test "should get login" do
-    get login_path
-    assert_response :success
-    assert_select "title", "Login | Members only club"
-  end
+  
 
 
 end
