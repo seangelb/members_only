@@ -12,11 +12,6 @@ class SessionsController < ApplicationController
         render 'new'
       end
   end
-
-  def log_out
-    session.delete(:user_id)
-    @current_user = nil
-  end
   
   def destroy
     log_out if logged_in?
