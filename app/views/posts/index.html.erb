@@ -1,9 +1,11 @@
 <h1>Everyone's posts</h1>
 
 <% if logged_in? %>
-  <%= link_to "New Post", new_post_path %>
+  <%= link_to "New Post", posts_path %>
 <% else %>
-  <%= link_to "Only members of this forum can view authors", login_path %>
+  Only
+  <%= link_to "members", login_path %>
+  can view the author.
 <% end %>
 <table class = "table">
   <tr>

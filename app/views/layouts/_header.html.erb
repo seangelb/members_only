@@ -7,9 +7,10 @@
         <li><%= link_to "Everyone's Posts", posts_path %></li>
 
         <% if logged_in? %>
-
+              <li><%= link_to "Create Post", new_post_path%> </li>
               <li><%= link_to "Your Posts", current_user %></li>
               <li><%= link_to "Log out", logout_path, method: :delete %> </li>
+
         <% else %>
           <li ><%= link_to "Log in", login_path %></li>
         <% end %>

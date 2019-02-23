@@ -6,12 +6,12 @@ Rails.application.routes.draw do
   get '/signup', to: 'users#new'
   post '/signup', to: 'users#create'
   
-  root 'posts#index'
+  root 'static_pages#home'
   
   get '/home', to: 'static_pages#home'
   
   
-  get '/posts', to: 'posts#new'
+  get '/posts/new', to: 'posts#new'
   post '/posts', to: 'posts#create'
   get '/posts', to: 'posts#index'
   

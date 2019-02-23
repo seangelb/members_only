@@ -7,7 +7,6 @@ class PostsController < ApplicationController
   
   def create
     Post.create(title: params[:post][:title], content: params[:post][:content], user_id: current_user.id)
-    redirect_to 'root_url'
   end
   
   def index
@@ -18,8 +17,9 @@ class PostsController < ApplicationController
   
   def logged_in_user
     unless logged_in?
-      flash[:danger] = "Please log in"
+      flash[:danger] = "Please log in to post"
       redirect_to login_url
     end
   end
+
 end

@@ -4,7 +4,8 @@
 
 <% @post.each do |post| %>
   <tr>
-
+    <%=post.created_at %>
+    <br>
     <strong><td><%= post.title %></td></strong>
     <br>
     <td><%= post.content %></td>
