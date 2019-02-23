@@ -5,7 +5,7 @@
 <h2>
  <%=link_to "Create Post", '/posts/new'%>
 </h2>
-<% @posts.each do |post| %>
+<% @post.each do |post| %>
   <tr>
     <%=post.created_at %>
     <br>
