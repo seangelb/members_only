@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e0bdd63-4dfc-4b59-a3cf-46ceacf65423" name="Default Changelist" comment="push once - all done. My bug is my route to posts/new and posts/index was /posts so the users create post would always show up.">
+    <list default="true" id="4e0bdd63-4dfc-4b59-a3cf-46ceacf65423" name="Default Changelist" comment="push once.uno - all done. My bug is my route to posts/new and posts/index were both directed /posts so the users create post would always show up. I had to direct my create posts to 'posts/new' I also fixed the bug that would make website crash if a non-user would try to post.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/posts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/posts/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/new.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
@@ -17,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/members_only@Development__members_only.rcov" NAME="Development: members_only Coverage Results" MODIFIED="1550947900430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="members_only" />
+    <SUITE FILE_PATH="coverage/members_only@Development__members_only.rcov" NAME="Development: members_only Coverage Results" MODIFIED="1550949361762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="members_only" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -44,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/posts/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -53,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="90">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -74,8 +71,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="73">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -99,15 +105,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/posts/create.html.erb">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -115,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="105" selection-start-line="8" selection-start-column="105" selection-end-line="8" selection-end-column="105" />
+            <state relative-caret-position="300">
+              <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -124,6 +121,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -168,12 +166,12 @@
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" />
-        <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/posts/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/posts/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
       </list>
     </option>
   </component>
@@ -467,7 +465,7 @@
       <workItem from="1550460368048" duration="505000" />
       <workItem from="1550506992649" duration="23997000" />
       <workItem from="1550737942445" duration="18790000" />
-      <workItem from="1550903876826" duration="12766000" />
+      <workItem from="1550903876826" duration="14278000" />
     </task>
     <task id="LOCAL-00001" summary="push uno">
       <created>1550345036920</created>
@@ -581,11 +579,25 @@
       <option name="project" value="LOCAL" />
       <updated>1550945495462</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="push once - all done. My bug is my route to posts/new and posts/index were both directed /posts so the users create post would always show up. I had to direct my create posts to 'posts/new' I also fixed the bug that would make website crash if a non-user would try to post.">
+      <created>1550948003856</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1550948003856</updated>
+    </task>
+    <task id="LOCAL-00018" summary="push once.uno - all done. My bug is my route to posts/new and posts/index were both directed /posts so the users create post would always show up. I had to direct my create posts to 'posts/new' I also fixed the bug that would make website crash if a non-user would try to post.">
+      <created>1550948529236</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1550948529236</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77667000" />
+    <option name="totallyTimeSpent" value="79179000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -598,14 +610,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-111" y="-1080" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12673056" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2401491" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49938875" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5037274" visible="true" weight="0.27326733" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627262" weight="0.2752475" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.34504792" visible="true" weight="0.48415843" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49574015" weight="0.2752475" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
@@ -614,7 +627,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49893504" weight="0.32772276" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4724939" side_tool="true" weight="0.24171123" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32941177" />
-      <window_info active="true" anchor="bottom" x="1050" y="650" width="494" height="356" id="Terminal" order="12" sideWeight="0.49627262" side_tool="true" visible="true" weight="0.27326733" />
+      <window_info anchor="bottom" x="1050" y="650" width="494" height="356" id="Terminal" order="12" sideWeight="0.65495205" side_tool="true" visible="true" weight="0.48415843" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -701,7 +714,9 @@
     <MESSAGE value="push nueve.tres - fixed log in glitch" />
     <MESSAGE value="push nueve.cuatra - There's something wrong with remember_digest" />
     <MESSAGE value="push diez - Just have to do last push. There are a few bugs i have to squash dealing with authenication and permissions of viewing posts" />
-    <option name="LAST_COMMIT_MESSAGE" value="push diez - Just have to do last push. There are a few bugs i have to squash dealing with authenication and permissions of viewing posts" />
+    <MESSAGE value="push once - all done. My bug is my route to posts/new and posts/index were both directed /posts so the users create post would always show up. I had to direct my create posts to 'posts/new' I also fixed the bug that would make website crash if a non-user would try to post." />
+    <MESSAGE value="push once.uno - all done. My bug is my route to posts/new and posts/index were both directed /posts so the users create post would always show up. I had to direct my create posts to 'posts/new' I also fixed the bug that would make website crash if a non-user would try to post." />
+    <option name="LAST_COMMIT_MESSAGE" value="push once.uno - all done. My bug is my route to posts/new and posts/index were both directed /posts so the users create post would always show up. I had to direct my create posts to 'posts/new' I also fixed the bug that would make website crash if a non-user would try to post." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/config/puma.rb">
@@ -967,48 +982,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="105" selection-start-line="8" selection-start-column="105" selection-end-line="8" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/create.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1023,6 +1000,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/create.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
         </state>
       </provider>
     </entry>
