@@ -4,8 +4,10 @@
     <nav>
       <ul class="nav navbar-nav navbar-right">
         <li ><%= link_to "Home", root_path %></li>
+        <li><%= link_to "Everyone's Posts", posts_path %></li>
 
         <% if logged_in? %>
+
               <li><%= link_to "Your Posts", current_user %></li>
               <li><%= link_to "Log out", logout_path, method: :delete %> </li>
         <% else %>
