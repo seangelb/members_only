@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  attr_accessor :remember_token
   before_save { email.downcase! }
   validates :name, presence: true, length: {maximum: 50}
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
@@ -7,7 +8,7 @@ class User < ApplicationRecord
             uniqueness: { case_sensitive: false}
   has_secure_password
   validates :password, length: {minimum: 6}, presence: true
-  attr_accessor :remember_token
+
 
 
   def self.digest(string)
@@ -26,7 +27,6 @@ class User < ApplicationRecord
   end
 
   def authenticated?(remember_token)
-    return false unless !remember_digest.nil?
     BCrypt::Password.new(remember_digest).is_password?(remember_token)
   end
 
